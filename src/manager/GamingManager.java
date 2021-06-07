@@ -11,7 +11,7 @@ import java.util.ArrayList;
  */
 public class GamingManager {
 
-    public void StartGame() {
+    public void startGame() {
         // initialize game
         ChristmasGame game = new ChristmasGame("TestGame",
                 new Santa(new ArrayList<>()));
